@@ -1,0 +1,4 @@
+Kode Paket 10261197000
+Nama Paket Pemeliharaan Kantor Wilker Batulicin Paket Ulang
+SBU BG002 - Kontruksi Gedung Perkantoran, BG009 - Kontruksi Gedung Lainnya
+Mempunyai status valid keterangan Wajib Pajak berdasarkan hasil Konfirmasi Status Wajib Pajak.

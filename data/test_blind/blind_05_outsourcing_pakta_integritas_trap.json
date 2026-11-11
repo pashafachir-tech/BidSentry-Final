@@ -1,0 +1,20 @@
+{
+  "id": "blind_05_outsourcing_pakta_integritas_trap",
+  "title": "Dokumen Jasa Kebersihan Menyebutkan Pakta Integritas (Trap Case - Sah)",
+  "is_trap": true,
+  "request": {
+    "package_name": "Layanan Kebersihan dan Keamanan Gedung Kantor",
+    "tender_id": "TND-CLEAN-2026-05",
+    "dok_pemilihan": "BAB I. KETENTUAN UMUM DAN INTEGRITAS\n1. Seluruh peserta tender wajib menandatangani pakta integritas resmi LKPP.\n2. Peserta menyatakan bebas dari benturan kepentingan dengan PPK, Pokja Pemilihan, maupun Pejabat Penatausahaan Keuangan.\n3. Masa penawaran 8 hari kerja dan masa sanggah 5 hari kerja.",
+    "pustaka": "NIB 9120009988776 aktif. NPWP 02.345.678.9-031.000.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari maksimal 5% dari nilai kontrak."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "GOV-CONFLICT-INTEREST",
+    "SPEC-LOCKIN-PROC",
+    "PROC-TIMELINE-SANGGAH",
+    "CON-PENALTY"
+  ]
+}

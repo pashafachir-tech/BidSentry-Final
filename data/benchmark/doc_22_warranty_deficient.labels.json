@@ -1,0 +1,20 @@
+{
+  "id": "doc_22_warranty_deficient",
+  "title": "Durasi Garansi Penawaran Kurang dari Ketentuan Syarat",
+  "description": "Kekurangan penawaran: Syarat 3 tahun hanya ditawar 12 bulan.",
+  "input": {
+    "package_name": "Pengadaan Alat Pendingin Precision Data Center",
+    "dok_pemilihan": "Syarat Teknis Utama:\nGaransi purna jual unit minimal 3 tahun.",
+    "pustaka": "Brosur dan Surat Jaminan:\nGaransi kompresor dan sparepart 12 bulan."
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-WARRANTY",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": "doc_02_brand_lockin_cpu_only",
+  "title": "Penguncian Spesifikasi CPU Intel Emerald Rapids",
+  "description": "Pelanggaran spesifikasi: CPU dikunci ke arsitektur eksklusif tanpa padanan.",
+  "input": {
+    "package_name": "Pengadaan Compute Node AI",
+    "dok_pemilihan": "Spesifikasi Server Utama:\nWajib menggunakan prosesor Intel Xeon Emerald Rapids dengan interkoneksi UPI 4.0 dan fitur Intel VMD aktif tanpa alternatif merk lain.",
+    "pustaka": "Brosur penawaran server sesuai spek."
+  },
+  "expected_findings": [
+    {
+      "id": "SPEC-LOCKIN-CPU",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

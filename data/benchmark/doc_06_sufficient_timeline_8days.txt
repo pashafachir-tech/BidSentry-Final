@@ -1,0 +1,11 @@
+=== ID: doc_06_sufficient_timeline_8days
+=== TITLE: Jadwal Pemilihan Cukup Sesuai Pedoman LKPP
+=== PACKAGE: Pengadaan Kabel Fiber Optik
+--- DOK_PEMILIHAN ---
+Ketentuan Pelaksanaan Lelang:
+Waktu penyusunan dan pemasukan penawaran diberikan selama 8 hari kerja sesuai batas wajar regulasi pengadaan.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

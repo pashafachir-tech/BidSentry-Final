@@ -1,0 +1,16 @@
+{
+  "id": "blind_06_jasa_erp_over_budget",
+  "title": "Pengadaan ERP dengan Rincian BoQ Melebihi Pagu Anggaran",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengembangan Sistem Informasi Manajemen Keuangan ERP",
+    "tender_id": "TND-ERP-2026-88",
+    "dok_pemilihan": "BAB V. ALOKASI ANGGARAN DAN RINCIAN BIAYA\n1. Pagu Anggaran yang tersedia pada DIPA Satker adalah sebesar Rp 5.000.000.000,- (Lima Miliar Rupiah).\n2. Berdasarkan hasil rekapitulasi perhitungan teknis Bill of Quantities (BoQ), total rincian biaya kebutuhan mencapai Rp 6.250.000.000,- (Enam Koma Dua Puluh Lima Miliar Rupiah).\n3. Jadwal pemasukan penawaran 7 hari kerja dan sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari maksimal 5%."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "FIN-HPS-OVER-PAGU": "GAP"
+  },
+  "forbidden_findings": []
+}

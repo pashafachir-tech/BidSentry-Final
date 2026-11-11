@@ -1,0 +1,21 @@
+{
+  "id": "doc_15_uncapped_penalty_contract",
+  "title": "Klausul Denda Keterlambatan Tanpa Batas Maksimum",
+  "description": "Pelanggaran klausul: Denda tanpa batas maksimum (poison pill).",
+  "input": {
+    "package_name": "Pekerjaan Instalasi Generator",
+    "dok_pemilihan": "Syarat Khusus Kontrak:\nDenda keterlambatan ditetapkan sebesar 1/1000 per hari dari nilai kontrak tanpa batas maksimal denda.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dari nilai kontrak.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "CON-PENALTY",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

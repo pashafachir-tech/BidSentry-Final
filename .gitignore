@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.secret
+secrets.json
+credentials.json
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.next/
+.nuxt/
+
+# Logs & runtime artifacts
+*.log
+logs/
+log/
+audit_log.jsonl
+audit_sources/
+*.jsonl
+*.jsonl.lock
+srv_out.txt
+srv_err.txt
+server_stdout.txt
+server_stderr.txt
+_unicode_audit.txt
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*~
+
+# Database & runtime files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+bidsentry_jobs.db
+bidsentry_jobs.db-shm
+bidsentry_jobs.db-wal
+
+# Build & temp tool artifacts
+.codex-build/
+.codex-finalizer/
+.vscode/
+.turbo/
+out/
+
+# Outputs & build artifacts
+output/
+
+# Langflow runtime
+langflow/*.db
+langflow/*.sqlite
+.langflow/
+
+# Temp
+tmp/
+temp/
+uploads/
+*.tmp
+*.bak
+*.orig
+
+# Coverage & tests
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.png
+*.jpg
+*.jpeg
+!docs/screenshots/*.png
+!data/sample_tenders/rab_konstruksi_boq.xlsx
+!data/sample_tenders/pdf_tenders/*.pdf
+.bidsentry_session_secret
+backups/

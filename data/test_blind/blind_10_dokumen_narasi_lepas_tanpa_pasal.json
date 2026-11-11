@@ -1,0 +1,19 @@
+{
+  "id": "blind_10_dokumen_narasi_lepas_tanpa_pasal",
+  "title": "Dokumen Narasi Lepas Rapat Koordinasi Tanpa Ketentuan Syarat Pengadaan",
+  "is_trap": true,
+  "request": {
+    "package_name": "Notulensi Diskusi Koordinasi Rencana Kerja",
+    "tender_id": "NOTE-KOORD-2026",
+    "dok_pemilihan": "NOTULENSI RAPAT KOORDINASI INTERNAL\nHari/Tanggal: Senin, 14 Juli 2026\nAgenda: Pembahasan awal rencana pengadaan sarana kerja semester II.\nHasil Pembahasan:\n- Tim sepakat untuk menyusun kerangka acuan kerja pada bulan depan.\n- Perlu konsultasi lanjutan dengan bagian perlengkapan mengenai estimasi biaya.\n- Rapat ditutup pukul 16.30 WIB.",
+    "contract_draft": "",
+    "pustaka": ""
+  },
+  "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "SPEC-LOCKIN-PROC",
+    "PROC-TIMELINE-SANGGAH",
+    "CON-PENALTY"
+  ]
+}

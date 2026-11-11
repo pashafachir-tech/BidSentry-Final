@@ -1,0 +1,16 @@
+{
+  "id": "budget_02_prose_within_budget",
+  "title": "Pengadaan Jaringan Komunikasi dengan Biaya Sesuai Pagu (Dalam Batas)",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Layanan Jaringan Internet dan Komunikasi Data",
+    "tender_id": "TND-BUDGET-02",
+    "dok_pemilihan": "KERANGKA ACUAN KERJA (KAK)\nPasal 4. Pendanaan\nAlokasi pagu anggaran untuk paket pekerjaan ini dialokasikan sebesar Rp 8.000.000.000,- (Delapan Miliar Rupiah). Berdasarkan rekapitulasi teknis, total kebutuhan biaya pengadaan terhitung sebesar Rp 7.500.000.000,- sehingga berada dalam batas efisiensi belanja negara.\nPersyaratan kualifikasi izin usaha NIB yang masih berlaku dan NPWP valid.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari maksimal 5% dari nilai kontrak sebelum PPN."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "FIN-OVER-BUDGET"
+  ]
+}

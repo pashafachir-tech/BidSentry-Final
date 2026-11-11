@@ -1,0 +1,21 @@
+{
+  "id": "trap_02_spesifikasi_merek_setara",
+  "title": "Spesifikasi Teknis Menyebut Merek Terkenal Diikuti Frasa atau Setara",
+  "is_trap": true,
+  "request": {
+    "package_name": "Modernisasi Perangkat TI dan CCTV Kantor",
+    "tender_id": "TND-TRAP-02",
+    "pokja_name": "Pokja TI Sekretariat Daerah",
+    "company_name": "PT Solusi Komputindo",
+    "contract_value_idr": 850000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "SPESIFIKASI TEKNIS:\n1. Printer harus menggunakan produk HP LaserJet Pro M404 atau setara.\n2. Kamera pengawas wajib produk Hikvision DS-2CD2143 atau ekuivalen yang setara mutunya.\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5% dari nilai kontrak."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "SPEC-BRAND-LOCKIN",
+    "SPEC-LOCKIN-CPU"
+  ]
+}

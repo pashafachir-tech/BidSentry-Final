@@ -1,0 +1,21 @@
+{
+  "id": "trap_06_produk_bersertifikat_sni_tkdn",
+  "title": "Persyaratan Kualitas Mutu Produk Ber-SNI dan Sertifikasi TKDN Kemenperin",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pengadaan Penerangan Jalan Umum Tenaga Surya",
+    "tender_id": "TND-TRAP-06",
+    "pokja_name": "Pokja Energi dan Sarpras",
+    "company_name": "PT Surya Abadi Gemilang",
+    "contract_value_idr": 1800000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "PERSYARATAN KUALITAS TEKNIS:\nLampu penerangan jalan wajib produk bersertifikat SNI dan memiliki nilai bobot manfaat serta TKDN minimal 40%.\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5%."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "SPEC-BRAND-LOCKIN",
+    "SPEC-LOCKIN-CPU"
+  ]
+}

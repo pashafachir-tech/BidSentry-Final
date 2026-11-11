@@ -1,0 +1,11 @@
+=== ID: doc_14_double_counted_license_maint
+=== TITLE: Duplikasi Biaya Lisensi dan Pemeliharaan Tahun Pertama
+=== PACKAGE: Pengadaan Lisensi Database Cluster
+--- DOK_PEMILIHAN ---
+Rincian Biaya Perangkat Lunak:
+Pos Lisensi Core ERP Rp 1.000.000.000 dan Biaya Pemeliharaan Berkala Rp 350.000.000 tahun pertama sudah termasuk lisensi.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

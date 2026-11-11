@@ -1,0 +1,20 @@
+{
+  "id": "doc_05_compressed_timeline_bid_prep",
+  "title": "Jadwal Pemasukan Penawaran Terlalu Mepet 3 Hari",
+  "description": "Pelanggaran jadwal: Batas pemasukan penawaran hanya 3 hari kerja.",
+  "input": {
+    "package_name": "Pengadaan Jaringan Komputer Dinas",
+    "dok_pemilihan": "Jadwal Pengadaan:\npemasukan penawaran hanya 3 hari kerja sejak pengumuman lelang.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "PROC-TIMELINE-COMPRESSED",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

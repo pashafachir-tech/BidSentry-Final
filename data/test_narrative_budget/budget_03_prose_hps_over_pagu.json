@@ -1,0 +1,16 @@
+{
+  "id": "budget_03_prose_hps_over_pagu",
+  "title": "Pengadaan Server Storage dengan HPS Prosa Melebihi Pagu DIPA",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Perangkat Server dan Storage Terpusat",
+    "tender_id": "TND-BUDGET-03",
+    "dok_pemilihan": "DOKUMEN PEMILIHAN PENGADAAN BARANG\nBagian A. Pembiayaan dan HPS\nNilai pagu DIPA yang tercantum dalam dokumen perencanaan pengadaan adalah sebesar Rp 3.000.000.000,-. Namun dalam penyusunan spesifikasi dan penetapan Harga Perkiraan Sendiri (HPS) oleh PPK, total HPS ditetapkan sebesar Rp 3.400.000.000,- guna menyesuaikan kenaikan kurs valuta asing.\nJadwal pengadaan: Pemasukan penawaran 6 hari kerja dan masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan nilai maksimal 5% dari bagian kontrak yang terlambat."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "FIN-OVER-BUDGET": "GAP"
+  },
+  "forbidden_findings": []
+}

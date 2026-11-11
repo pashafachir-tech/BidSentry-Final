@@ -1,0 +1,23 @@
+{
+  "id": "trap_04_pakta_integritas_normatif",
+  "title": "Klausul Pakta Integritas Komitmen Anti-KKN dan Bebas Benturan Kepentingan",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pengadaan Jasa Kebersihan Gedung Kantor Dinas",
+    "tender_id": "TND-TRAP-04",
+    "pokja_name": "Pokja Jasa Lainnya",
+    "company_name": "PT Resik Prima Mandiri",
+    "contract_value_idr": 600000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "PAKTA INTEGRITAS:\n1. Memiliki pakta integritas dan surat pernyataan bebas dari benturan kepentingan.\n2. Berkomitmen tidak melakukan praktik korupsi, kolusi, dan nepotisme (KKN).\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5%."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "SPEC-BRAND-LOCKIN",
+    "CON-PENALTY",
+    "FIN-OVER-BUDGET",
+    "GOV-CONFLICT-INTEREST"
+  ]
+}

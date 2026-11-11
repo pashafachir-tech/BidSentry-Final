@@ -1,0 +1,20 @@
+{
+  "id": "doc_14_double_counted_license_maint",
+  "title": "Duplikasi Biaya Lisensi dan Pemeliharaan Tahun Pertama",
+  "description": "Pelanggaran finansial: Tagihan lisensi dan pemeliharaan berpotensi double counting.",
+  "input": {
+    "package_name": "Pengadaan Lisensi Database Cluster",
+    "dok_pemilihan": "Rincian Biaya Perangkat Lunak:\nPos Lisensi Core ERP Rp 1.000.000.000 dan Biaya Pemeliharaan Berkala Rp 350.000.000 tahun pertama sudah termasuk lisensi.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "FIN-DOUBLE-LICENSE",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

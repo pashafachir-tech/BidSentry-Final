@@ -1,0 +1,20 @@
+{
+  "id": "doc_07_compressed_sanggah_timeline",
+  "title": "Masa Sanggah Terlalu Singkat 2 Hari Kerja",
+  "description": "Pelanggaran jadwal: Masa sanggah hanya 2 hari kerja (standar minimal 5 hari).",
+  "input": {
+    "package_name": "Revitalisasi Jaringan Kampus",
+    "dok_pemilihan": "Tahapan Lelang:\nPengumuman pemenang lelang dan masa sanggah hanya 2 hari kerja.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "PROC-TIMELINE-COMPRESSED",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

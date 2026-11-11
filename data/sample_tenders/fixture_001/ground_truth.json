@@ -1,0 +1,10 @@
+{
+  "fixture_id": "fixture_001",
+  "synthetic": true,
+  "purpose": "Regression fixture for explicit expired-SBU and insufficient-bid-bond signals.",
+  "expected_issue_ids": [
+    "ADM-SBU",
+    "ADM-BOND"
+  ],
+  "bid_deadline": "1 Juni 2026"
+}

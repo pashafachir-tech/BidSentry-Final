@@ -1,0 +1,47 @@
+# BidSentry — ambang batas numerik untuk aturan deterministik.
+#
+# Metadata aturan (kode, keluarga, pihak, tingkat dampak, dasar hukum dan status
+# verifikasinya) ada di bidsentry/evaluators/rule_catalog.py. File ini hanya berisi
+# angka yang boleh disesuaikan organisasi tanpa mengubah kode.
+# DILARANG mengubah angka untuk "mengejar" label benchmark; setiap perubahan wajib
+# dijelaskan dan dijalankan ulang dengan: python scripts/run_benchmarks.py
+
+thresholds:
+  # Jadwal pemilihan. Masa penawaran minimum TIDAK ditemukan pada Lampiran Peraturan
+  # LKPP 12/2021, jadi angka ini hanya memicu status REVIEW, tidak pernah NO-GO.
+  min_bidding_days: 7                 # hari kerja penyiapan/pemasukan penawaran (belum terverifikasi)
+  # Lampiran Peraturan LKPP 12/2021: sanggah 5 hari kalender setelah pengumuman pemenang.
+  min_sanggah_days: 5                 # hari kalender masa sanggah
+  min_complex_implementation_days: 14 # ambang durasi implementasi arsitektur kompleks (indikasi pre-work)
+
+  # Denda keterlambatan: Perpres 16/2018 Pasal 79 ayat (4) — 1‰ per hari dari nilai
+  # kontrak/bagian kontrak. Batas akumulasi pada SSUK model = besaran Jaminan Pelaksanaan;
+  # 5% dipakai hanya sebagai ilustrasi simulasi.
+  statutory_daily_penalty_rate: 0.001
+  standard_penalty_max_cap: 0.05
+
+  # Merek di luar aturan penguncian IT. Penyebutan tanpa opsi setara hanya memicu REVIEW.
+  # Pencocokan peka huruf besar-kecil; tambahkan merek sesuai sektor organisasi.
+  brand_watchlist:
+    ["Semen Tiga Roda", "Tiga Roda", "Semen Gresik", "Semen Padang", "Holcim", "Dynamix", "Conch", "Taso", "Dulux", "Nippon Paint", "Jotun",
+     "Avian", "Mowilex", "Wavin", "Rucika", "Maspion", "Toto", "Schneider Electric", "Komatsu", "Caterpillar", "Kobelco", "Hitachi",
+     "Sumitomo", "Sany", "Daikin", "Panasonic", "Gree", "Polytron", "Mitsubishi", "Toyota", "Isuzu", "Hino", "Suzuki", "Daihatsu", "Honda",
+     "Yamaha", "Philips", "GE Healthcare", "Siemens Healthineers", "Mindray", "Olympus", "Epson", "Canon", "Brother"]
+
+  # Kedaluwarsa dokumen kualifikasi relatif terhadap batas penawaran.
+  expiry_warning_days: 30
+
+  # Batas tarif tenaga ahli per bulan (pedoman remunerasi; sesuaikan dengan pedoman terbaru).
+  billing_rates:
+    "Solution Architect":
+      min_idr: 40000000
+      max_idr: 70000000
+      guideline: "Pedoman Standar Remunerasi INKINDO"
+    "Project Manager":
+      min_idr: 40000000
+      max_idr: 70000000
+      guideline: "Pedoman Standar Remunerasi INKINDO"
+    "Senior Developer":
+      min_idr: 25000000
+      max_idr: 45000000
+      guideline: "Pedoman Standar Remunerasi INKINDO"

@@ -1,0 +1,21 @@
+{
+  "id": "trap_05_lokasi_pekerjaan_proyek",
+  "title": "Penyebutan Lokasi Pelaksanaan Lapangan Tanpa Diskriminasi Domisili Penyedia",
+  "is_trap": true,
+  "request": {
+    "package_name": "Rehabilitasi Jembatan dan Saluran Air Provinsi",
+    "tender_id": "TND-TRAP-05",
+    "pokja_name": "Pokja Bina Marga",
+    "company_name": "PT Sarana Mega Konstruksi",
+    "contract_value_idr": 3500000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "LOKASI PEKERJAAN:\nLokasi pekerjaan fisik berada di wilayah Provinsi Jawa Barat.\nSesuai prinsip non-diskriminasi LKPP, penyedia dari seluruh wilayah Indonesia berhak mengikuti tender ini tanpa kewajiban berdomisili lokal.\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5 persen."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "DISC-GEO-DOMICILE",
+    "DISC-GEO-BRANCH"
+  ]
+}

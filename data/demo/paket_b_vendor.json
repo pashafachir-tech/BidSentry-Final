@@ -1,0 +1,23 @@
+{
+  "key": "B",
+  "role": "vendor",
+  "title": "Paket B · Vendor · Pengadaan perangkat jaringan data center",
+  "story": "Vendor memeriksa dokumen tender sebelum submit: spesifikasi mengunci merek switch tanpa opsi setara, dan rincian BoQ salah hitung Rp15.000.000.",
+  "synthetic": true,
+  "request": {
+    "package_name": "Pengadaan Perangkat Jaringan Data Center (Demo Paket B)",
+    "tender_id": "DEMO-B-NET-2026",
+    "notice_number": "LPSE-DEMO-2026-B",
+    "pokja_name": "Pokja Pemilihan TIK 1",
+    "company_name": "PT Solusi Jaringan Mandiri",
+    "contract_value_idr": 3200000000,
+    "bid_deadline": "28 November 2026",
+    "review_role": "procurement",
+    "dok_pemilihan": "BAB III. SPESIFIKASI TEKNIS\n1. Core switch wajib menggunakan Cisco Catalyst 9500 dengan sistem operasi Cisco IOS-XE.\n2. Seluruh perangkat akses wajib bermerek Cisco untuk menjaga keseragaman.\n\nBAB IV. RINCIAN BILL OF QUANTITIES (BoQ)\nPagu Anggaran tahun 2026 adalah sebesar Rp 3.500.000.000.\nTotal HPS hasil rekapitulasi BoQ adalah Rp 3.215.000.000.\nCore switch 48 port 100G | 2 unit | Rp 850.000.000 | Rp 1.700.000.000\nAccess switch 48 port PoE | 12 unit | Rp 85.000.000 | Rp 1.020.000.000\nRak server 42U dan PDU | 3 set | Rp 95.000.000 | Rp 300.000.000\nInstalasi, konfigurasi, dan pelatihan | 1 paket | Rp 195.000.000 | Rp 195.000.000\n\nBAB V. PERSYARATAN\n1. Peserta wajib melampirkan Nomor Induk Berusaha (NIB) dan NPWP aktif.",
+    "pustaka": "Dokumen Penawaran PT Solusi Jaringan Mandiri\n1. NPWP Perusahaan: 02.345.678.9-012.000\n2. NIB: 9120007788991 (terdaftar OSS, status aktif)",
+    "contract_draft": "SYARAT-SYARAT KHUSUS KONTRAK\nDenda keterlambatan sebesar 1/1000 per hari dari nilai bagian kontrak, dengan batas maksimal 5% dari nilai kontrak.",
+    "adendum": "",
+    "baseline_contract": "",
+    "allow_external_processing": false
+  }
+}

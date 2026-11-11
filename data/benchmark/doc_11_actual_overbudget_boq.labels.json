@@ -1,0 +1,20 @@
+{
+  "id": "doc_11_actual_overbudget_boq",
+  "title": "Total BoQ Melebihi Pagu Anggaran Riil",
+  "description": "Pelanggaran finansial: Total BoQ melebihi Pagu Anggaran dengan nominal eksplisit.",
+  "input": {
+    "package_name": "Pembangunan Data Center Mini",
+    "dok_pemilihan": "Rincian Anggaran Paket:\nPagu Anggaran : Rp 4.000.000.000\nTOTAL BIAYA BoQ : Rp 5.200.000.000\nSELISIH (OVER BUDGET) : Rp 1.200.000.000",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "FIN-OVER-BUDGET",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

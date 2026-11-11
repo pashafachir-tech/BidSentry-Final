@@ -1,0 +1,11 @@
+=== ID: doc_04_brand_lockin_gpu_strict
+=== TITLE: Penguncian GPU NVIDIA H100 SXM5 dan NVLink 4.0
+=== PACKAGE: Cluster Server High Performance Computing
+--- DOK_PEMILIHAN ---
+Spesifikasi GPU Node:
+Wajib dilengkapi 8x NVIDIA H100 SXM5 80GB dengan koneksi interkoneksi NVLink 4.0 antar GPU.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

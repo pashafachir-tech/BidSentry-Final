@@ -1,0 +1,11 @@
+=== ID: doc_09_actual_coi_recom_letter
+=== TITLE: Syarat Rekomendasi Mantan Pejabat Internal
+=== PACKAGE: Konsultansi Tata Kelola TI
+--- DOK_PEMILIHAN ---
+Persyaratan Khusus Kualifikasi:
+Peserta wajib menyertakan surat rekomendasi dari mantan Kepala Divisi TI yang terafiliasi dengan pemberi kerja.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

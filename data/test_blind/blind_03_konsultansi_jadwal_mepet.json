@@ -1,0 +1,17 @@
+{
+  "id": "blind_03_konsultansi_jadwal_mepet",
+  "title": "Kajian Penataan Ruang dengan Jadwal Penawaran dan Sanggah Sangat Mepet",
+  "is_trap": false,
+  "request": {
+    "package_name": "Kajian Teknis Tata Ruang Wilayah",
+    "tender_id": "TND-TTRU-2026-44",
+    "dok_pemilihan": "BAB II. JADWAL PELAKSANAAN SELEKSI\n1. Pemberian penjelasan dan masa pemasukan dokumen penawaran teknis dibatasi hanya selama 4 hari kerja.\n2. Masa sanggah hasil kualifikasi diberikan selama 2 hari kerja setelah berita acara pengumuman diterbitkan.",
+    "contract_draft": "Denda 1/1000 per hari maksimal 5 persen."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "PROC-TIMELINE-PREP": "GAP",
+    "PROC-TIMELINE-SANGGAH": "GAP"
+  },
+  "forbidden_findings": []
+}

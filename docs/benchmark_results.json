@@ -1,0 +1,1680 @@
+{
+  "generated_at": "2026-11-09T19:08:43+0700",
+  "engine": "deterministic rules only (AI extraction disabled)",
+  "unit": "red flag = finding with status GAP or EXPIRING, or REVIEW held only because its numeric threshold is unverified; matched by rule family",
+  "suites": [
+    {
+      "suite": "dev_regression",
+      "title": "Development regression (24 dokumen)",
+      "path": "data/benchmark",
+      "provenance": "In-sample: dokumen ini dipakai saat menyusun dan menyetel aturan regex.",
+      "independent_of_rule_tuning": false,
+      "real_world_documents": false,
+      "mode": "flags",
+      "documents": 24,
+      "document_characters": [
+        354,
+        196,
+        185,
+        113,
+        81,
+        139,
+        79,
+        191,
+        143,
+        110,
+        132,
+        140,
+        98,
+        152,
+        179,
+        201,
+        177,
+        186,
+        162,
+        135,
+        147,
+        128,
+        96,
+        128
+      ],
+      "family": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.7719,
+          1.0
+        ],
+        "recall_ci95": [
+          0.7719,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.7719,
+          1.0
+        ],
+        "recall_ci95": [
+          0.7719,
+          1.0
+        ]
+      },
+      "verdict_accuracy": 0.9583,
+      "verdict_correct": 23,
+      "verdict_total": 24,
+      "traps_without_false_positive": 9,
+      "trap_documents": 9,
+      "documents_with_false_positive": 0,
+      "evidence_requests": 1,
+      "median_latency_ms": 0.45,
+      "cases": [
+        {
+          "case_id": "doc_01_clean_ict_procurement",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 13.813
+        },
+        {
+          "case_id": "doc_02_brand_lockin_cpu_only",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "SPEC-LOCKIN"
+          ],
+          "predicted": [
+            "SPEC-LOCKIN"
+          ],
+          "true_positive": [
+            "SPEC-LOCKIN"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.637
+        },
+        {
+          "case_id": "doc_03_brand_lockin_gpu_with_equiv",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.525
+        },
+        {
+          "case_id": "doc_04_brand_lockin_gpu_strict",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "SPEC-LOCKIN"
+          ],
+          "predicted": [
+            "SPEC-LOCKIN"
+          ],
+          "true_positive": [
+            "SPEC-LOCKIN"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.396
+        },
+        {
+          "case_id": "doc_05_compressed_timeline_bid_prep",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "BELUM CUKUP BUKTI",
+          "verdict_match": false,
+          "risk_level": "MEDIUM",
+          "expected": [
+            "PROC-TIMELINE"
+          ],
+          "predicted": [
+            "PROC-TIMELINE"
+          ],
+          "true_positive": [
+            "PROC-TIMELINE"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.379
+        },
+        {
+          "case_id": "doc_06_sufficient_timeline_8days",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.433
+        },
+        {
+          "case_id": "doc_07_compressed_sanggah_timeline",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "PROC-TIMELINE"
+          ],
+          "predicted": [
+            "PROC-TIMELINE"
+          ],
+          "true_positive": [
+            "PROC-TIMELINE"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.423
+        },
+        {
+          "case_id": "doc_08_normative_integrity_no_coi",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 1.067
+        },
+        {
+          "case_id": "doc_09_actual_coi_recom_letter",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "GOV-COI"
+          ],
+          "predicted": [
+            "GOV-COI"
+          ],
+          "true_positive": [
+            "GOV-COI"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.429
+        },
+        {
+          "case_id": "doc_10_normative_pagu_guideline",
+          "is_trap": true,
+          "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+          "actual_verdict": "TIDAK ADA SYARAT TERBACA",
+          "verdict_match": true,
+          "risk_level": "NOT_ASSESSABLE",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.35
+        },
+        {
+          "case_id": "doc_11_actual_overbudget_boq",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "FIN-OVER-BUDGET"
+          ],
+          "predicted": [
+            "FIN-OVER-BUDGET"
+          ],
+          "true_positive": [
+            "FIN-OVER-BUDGET"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.558
+        },
+        {
+          "case_id": "doc_12_reasonable_billing_rates",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.433
+        },
+        {
+          "case_id": "doc_13_markup_billing_rate_pm",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "FIN-BILLING-RATE"
+          ],
+          "predicted": [
+            "FIN-BILLING-RATE"
+          ],
+          "true_positive": [
+            "FIN-BILLING-RATE"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.558
+        },
+        {
+          "case_id": "doc_14_double_counted_license_maint",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "FIN-DOUBLE-COUNT"
+          ],
+          "predicted": [
+            "FIN-DOUBLE-COUNT"
+          ],
+          "true_positive": [
+            "FIN-DOUBLE-COUNT"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.513
+        },
+        {
+          "case_id": "doc_15_uncapped_penalty_contract",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "CON-PENALTY"
+          ],
+          "predicted": [
+            "CON-PENALTY"
+          ],
+          "true_positive": [
+            "CON-PENALTY"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.67
+        },
+        {
+          "case_id": "doc_16_capped_penalty_contract",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.412
+        },
+        {
+          "case_id": "doc_17_sbu_expired",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "ADM-SBU"
+          ],
+          "predicted": [
+            "ADM-SBU"
+          ],
+          "true_positive": [
+            "ADM-SBU"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.859
+        },
+        {
+          "case_id": "doc_18_sbu_valid_broken_lines",
+          "is_trap": false,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.392
+        },
+        {
+          "case_id": "doc_19_kswp_valid_labeled",
+          "is_trap": false,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.539
+        },
+        {
+          "case_id": "doc_20_kswp_invalid",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "ADM-KSWP"
+          ],
+          "predicted": [
+            "ADM-KSWP"
+          ],
+          "true_positive": [
+            "ADM-KSWP"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.307
+        },
+        {
+          "case_id": "doc_21_warranty_12_months_vs_1_year",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.45
+        },
+        {
+          "case_id": "doc_22_warranty_deficient",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "ADM-WARRANTY"
+          ],
+          "predicted": [
+            "ADM-WARRANTY"
+          ],
+          "true_positive": [
+            "ADM-WARRANTY"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.357
+        },
+        {
+          "case_id": "doc_23_empty_no_requirements",
+          "is_trap": true,
+          "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+          "actual_verdict": "TIDAK ADA SYARAT TERBACA",
+          "verdict_match": true,
+          "risk_level": "NOT_ASSESSABLE",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.317
+        },
+        {
+          "case_id": "doc_24_discriminatory_regional_assoc",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "SPEC-REGIONAL"
+          ],
+          "predicted": [
+            "SPEC-REGIONAL"
+          ],
+          "true_positive": [
+            "SPEC-REGIONAL"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [
+            "SPEC-PRINCIPAL-REVIEW"
+          ],
+          "latency_ms": 0.86
+        }
+      ]
+    },
+    {
+      "suite": "traps_v2",
+      "title": "Traps v2 (10 dokumen jebakan)",
+      "path": "data/test_traps_v2",
+      "provenance": "Disusun tim setelah perbaikan bug false positive; dipakai sebagai regression guard.",
+      "independent_of_rule_tuning": false,
+      "real_world_documents": false,
+      "mode": "flags",
+      "documents": 10,
+      "document_characters": [
+        378,
+        323,
+        393,
+        303,
+        352,
+        265,
+        306,
+        303,
+        286,
+        262
+      ],
+      "family": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "verdict_accuracy": 1.0,
+      "verdict_correct": 10,
+      "verdict_total": 10,
+      "traps_without_false_positive": 9,
+      "trap_documents": 9,
+      "documents_with_false_positive": 0,
+      "evidence_requests": 0,
+      "median_latency_ms": 0.662,
+      "cases": [
+        {
+          "case_id": "trap_01_denda_berbatas_ragam_satuan",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.714
+        },
+        {
+          "case_id": "trap_02_spesifikasi_merek_setara",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.696
+        },
+        {
+          "case_id": "trap_03_kalimat_normatif_pagu_hps",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.748
+        },
+        {
+          "case_id": "trap_04_pakta_integritas_normatif",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.644
+        },
+        {
+          "case_id": "trap_05_lokasi_pekerjaan_proyek",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.675
+        },
+        {
+          "case_id": "trap_06_produk_bersertifikat_sni_tkdn",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.571
+        },
+        {
+          "case_id": "trap_07_jadwal_standar_lkpp",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.662
+        },
+        {
+          "case_id": "trap_08_kantor_lapangan_workshop",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.612
+        },
+        {
+          "case_id": "trap_09_english_equivalent_clause",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.55
+        },
+        {
+          "case_id": "trap_10_kontrol_positif_lockin_dan_denda",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "CON-PENALTY",
+            "SPEC-LOCKIN"
+          ],
+          "predicted": [
+            "CON-PENALTY",
+            "SPEC-LOCKIN"
+          ],
+          "true_positive": [
+            "CON-PENALTY",
+            "SPEC-LOCKIN"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.536
+        }
+      ]
+    },
+    {
+      "suite": "blind_v1",
+      "title": "Blind v1 (10 dokumen)",
+      "path": "data/test_blind",
+      "provenance": "Disusun tim (scripts/generate_blind_set.py). Setelah putaran pertama engine dikalibrasi pada set ini (lihat docs/BENCHMARK_RESULTS.md), jadi tidak lagi independen.",
+      "independent_of_rule_tuning": false,
+      "real_world_documents": false,
+      "mode": "flags",
+      "documents": 10,
+      "document_characters": [
+        1278,
+        363,
+        287,
+        274,
+        414,
+        441,
+        341,
+        375,
+        333,
+        336
+      ],
+      "family": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.6097,
+          1.0
+        ],
+        "recall_ci95": [
+          0.6097,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 5,
+        "precision": 0.3333,
+        "recall": 0.2857,
+        "f1": 0.3077,
+        "precision_ci95": [
+          0.0968,
+          0.7
+        ],
+        "recall_ci95": [
+          0.0822,
+          0.6411
+        ]
+      },
+      "verdict_accuracy": 1.0,
+      "verdict_correct": 10,
+      "verdict_total": 10,
+      "traps_without_false_positive": 3,
+      "trap_documents": 3,
+      "documents_with_false_positive": 0,
+      "evidence_requests": 0,
+      "median_latency_ms": 0.817,
+      "cases": [
+        {
+          "case_id": "blind_01_konstruksi_standar_clean",
+          "is_trap": false,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 1.603
+        },
+        {
+          "case_id": "blind_02_pengadaan_laptop_lockin_intel",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "SPEC-LOCKIN"
+          ],
+          "predicted": [
+            "SPEC-LOCKIN"
+          ],
+          "true_positive": [
+            "SPEC-LOCKIN"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.698
+        },
+        {
+          "case_id": "blind_03_konsultansi_jadwal_mepet",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "PROC-TIMELINE"
+          ],
+          "predicted": [
+            "PROC-TIMELINE"
+          ],
+          "true_positive": [
+            "PROC-TIMELINE"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 2
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.728
+        },
+        {
+          "case_id": "blind_04_alkes_denda_tanpa_batas",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "CON-PENALTY"
+          ],
+          "predicted": [
+            "CON-PENALTY"
+          ],
+          "true_positive": [
+            "CON-PENALTY"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.383
+        },
+        {
+          "case_id": "blind_05_outsourcing_pakta_integritas_trap",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.817
+        },
+        {
+          "case_id": "blind_06_jasa_erp_over_budget",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "FIN-OVER-BUDGET"
+          ],
+          "predicted": [
+            "FIN-OVER-BUDGET"
+          ],
+          "true_positive": [
+            "FIN-OVER-BUDGET"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.975
+        },
+        {
+          "case_id": "blind_07_sewa_kendaraan_equivalent_trap",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.725
+        },
+        {
+          "case_id": "blind_08_meubeler_sbu_hampir_kadaluwarsa",
+          "is_trap": false,
+          "expected_verdict": "BELUM CUKUP BUKTI",
+          "actual_verdict": "BELUM CUKUP BUKTI",
+          "verdict_match": true,
+          "risk_level": "MEDIUM",
+          "expected": [
+            "ADM-SBU"
+          ],
+          "predicted": [
+            "ADM-SBU"
+          ],
+          "true_positive": [
+            "ADM-SBU"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.641
+        },
+        {
+          "case_id": "blind_09_konsultan_billing_rate_tinggi",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "FIN-BILLING-RATE"
+          ],
+          "predicted": [
+            "FIN-BILLING-RATE"
+          ],
+          "true_positive": [
+            "FIN-BILLING-RATE"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 1
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.832
+        },
+        {
+          "case_id": "blind_10_dokumen_narasi_lepas_tanpa_pasal",
+          "is_trap": true,
+          "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+          "actual_verdict": "TIDAK ADA SYARAT TERBACA",
+          "verdict_match": true,
+          "risk_level": "NOT_ASSESSABLE",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.879
+        }
+      ]
+    },
+    {
+      "suite": "narrative_budget",
+      "title": "Narasi anggaran (5 dokumen)",
+      "path": "data/test_narrative_budget",
+      "provenance": "Disusun tim untuk menguji angka pagu/BoQ dalam prosa bebas. Miss budget_03 dilihat lalu diperbaiki secara umum (normalizer Rupiah + batas kata kunci), jadi set ini juga in-sample.",
+      "independent_of_rule_tuning": false,
+      "real_world_documents": false,
+      "mode": "flags",
+      "documents": 5,
+      "document_characters": [
+        562,
+        467,
+        526,
+        512,
+        512
+      ],
+      "family": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571,
+        "precision_ci95": [
+          0.3006,
+          0.9544
+        ],
+        "recall_ci95": [
+          0.4385,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571,
+        "precision_ci95": [
+          0.3006,
+          0.9544
+        ],
+        "recall_ci95": [
+          0.4385,
+          1.0
+        ]
+      },
+      "verdict_accuracy": 0.8,
+      "verdict_correct": 4,
+      "verdict_total": 5,
+      "traps_without_false_positive": 1,
+      "trap_documents": 1,
+      "documents_with_false_positive": 1,
+      "evidence_requests": 3,
+      "median_latency_ms": 1.026,
+      "cases": [
+        {
+          "case_id": "budget_01_prose_over_budget",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "FIN-OVER-BUDGET"
+          ],
+          "predicted": [
+            "FIN-OVER-BUDGET"
+          ],
+          "true_positive": [
+            "FIN-OVER-BUDGET"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 1.222
+        },
+        {
+          "case_id": "budget_02_prose_within_budget",
+          "is_trap": false,
+          "expected_verdict": "GO",
+          "actual_verdict": "BELUM CUKUP BUKTI",
+          "verdict_match": false,
+          "risk_level": "MEDIUM",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [
+            "ADM-NIB",
+            "ADM-NPWP"
+          ],
+          "latency_ms": 0.867
+        },
+        {
+          "case_id": "budget_03_prose_hps_over_pagu",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "FIN-OVER-BUDGET"
+          ],
+          "predicted": [
+            "FIN-OVER-BUDGET",
+            "PROC-TIMELINE"
+          ],
+          "true_positive": [
+            "FIN-OVER-BUDGET"
+          ],
+          "false_positive": [
+            "PROC-TIMELINE"
+          ],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0
+          },
+          "evidence_requests": [
+            "PROC-TIMELINE-COMPRESSED"
+          ],
+          "latency_ms": 1.073
+        },
+        {
+          "case_id": "budget_04_prose_normative_guideline_trap",
+          "is_trap": true,
+          "expected_verdict": "GO",
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.982
+        },
+        {
+          "case_id": "budget_05_prose_multi_item_recap",
+          "is_trap": false,
+          "expected_verdict": "NO-GO",
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "CRITICAL",
+          "expected": [
+            "FIN-OVER-BUDGET"
+          ],
+          "predicted": [
+            "FIN-OVER-BUDGET"
+          ],
+          "true_positive": [
+            "FIN-OVER-BUDGET"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 1.026
+        }
+      ]
+    },
+    {
+      "suite": "sample_fixtures",
+      "title": "Fixture sintetis (2 paket)",
+      "path": "data/sample_tenders",
+      "provenance": "Fixture regresi sintetis untuk SBU kedaluwarsa dan jaminan penawaran.",
+      "independent_of_rule_tuning": false,
+      "real_world_documents": false,
+      "mode": "flags",
+      "documents": 2,
+      "document_characters": [
+        689,
+        595
+      ],
+      "family": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "verdict_accuracy": null,
+      "verdict_correct": 0,
+      "verdict_total": 0,
+      "traps_without_false_positive": 0,
+      "trap_documents": 0,
+      "documents_with_false_positive": 0,
+      "evidence_requests": 0,
+      "median_latency_ms": 1.921,
+      "cases": [
+        {
+          "case_id": "fixture_001",
+          "is_trap": false,
+          "expected_verdict": null,
+          "actual_verdict": "NO-GO",
+          "verdict_match": true,
+          "risk_level": "HIGH",
+          "expected": [
+            "ADM-BOND",
+            "ADM-SBU"
+          ],
+          "predicted": [
+            "ADM-BOND",
+            "ADM-SBU"
+          ],
+          "true_positive": [
+            "ADM-BOND",
+            "ADM-SBU"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 1.921
+        },
+        {
+          "case_id": "fixture_002",
+          "is_trap": false,
+          "expected_verdict": null,
+          "actual_verdict": "GO",
+          "verdict_match": true,
+          "risk_level": "LOW",
+          "expected": [],
+          "predicted": [],
+          "true_positive": [],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.985
+        }
+      ]
+    },
+    {
+      "suite": "public_lpse",
+      "title": "Halaman LPSE publik (1 dokumen nyata)",
+      "path": "data/public_lpse",
+      "provenance": "Satu halaman pengumuman LPSE nyata, dianotasi satu orang. Mengukur pengenalan syarat, bukan deteksi pelanggaran.",
+      "independent_of_rule_tuning": true,
+      "real_world_documents": true,
+      "mode": "recognition",
+      "documents": 1,
+      "document_characters": [
+        253
+      ],
+      "family": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "strict_id": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "precision_ci95": [
+          0.3424,
+          1.0
+        ],
+        "recall_ci95": [
+          0.3424,
+          1.0
+        ]
+      },
+      "verdict_accuracy": null,
+      "verdict_correct": 0,
+      "verdict_total": 0,
+      "traps_without_false_positive": 0,
+      "trap_documents": 0,
+      "documents_with_false_positive": 0,
+      "evidence_requests": 0,
+      "median_latency_ms": 0.726,
+      "cases": [
+        {
+          "case_id": "LPSE-KEMKES-10261197000",
+          "is_trap": false,
+          "expected_verdict": null,
+          "actual_verdict": "BELUM CUKUP BUKTI",
+          "verdict_match": true,
+          "risk_level": "MEDIUM",
+          "expected": [
+            "ADM-KSWP",
+            "ADM-SBU"
+          ],
+          "predicted": [
+            "ADM-KSWP",
+            "ADM-SBU"
+          ],
+          "true_positive": [
+            "ADM-KSWP",
+            "ADM-SBU"
+          ],
+          "false_positive": [],
+          "false_negative": [],
+          "forbidden_hit": [],
+          "strict": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "evidence_requests": [],
+          "latency_ms": 0.726
+        }
+      ]
+    }
+  ],
+  "pooled_all_synthetic": {
+    "tp": 26,
+    "fp": 1,
+    "fn": 0,
+    "precision": 0.963,
+    "recall": 1.0,
+    "f1": 0.9811,
+    "precision_ci95": [
+      0.8172,
+      0.9934
+    ],
+    "recall_ci95": [
+      0.8713,
+      1.0
+    ],
+    "documents": 51
+  },
+  "pooled_excluding_dev_regression": {
+    "tp": 13,
+    "fp": 1,
+    "fn": 0,
+    "precision": 0.9286,
+    "recall": 1.0,
+    "f1": 0.963,
+    "precision_ci95": [
+      0.6853,
+      0.9873
+    ],
+    "recall_ci95": [
+      0.7719,
+      1.0
+    ],
+    "documents": 27
+  },
+  "independent_real_world_documents": 1,
+  "claim_guidance": "Semua set deteksi red flag disusun tim dan pernah dipakai saat pengembangan. Angka ini adalah uji regresi, bukan estimasi akurasi lapangan. Klaim akurasi memerlukan dokumen tender nyata berlabel independen (rencana pilot 5 rekanan)."
+}

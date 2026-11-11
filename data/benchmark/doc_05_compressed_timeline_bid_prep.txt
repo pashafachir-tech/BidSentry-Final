@@ -1,0 +1,11 @@
+=== ID: doc_05_compressed_timeline_bid_prep
+=== TITLE: Jadwal Pemasukan Penawaran Terlalu Mepet 3 Hari
+=== PACKAGE: Pengadaan Jaringan Komputer Dinas
+--- DOK_PEMILIHAN ---
+Jadwal Pengadaan:
+pemasukan penawaran hanya 3 hari kerja sejak pengumuman lelang.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

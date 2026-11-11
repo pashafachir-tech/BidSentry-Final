@@ -1,0 +1,20 @@
+{
+  "id": "doc_24_discriminatory_regional_assoc",
+  "title": "Syarat Asosiasi Regional Diskriminatif ADCR-Jabar",
+  "description": "Pelanggaran kualifikasi: Mewajibkan keanggotaan asosiasi lokal tertentu.",
+  "input": {
+    "package_name": "Pembangunan Fasilitas Modular Data Center",
+    "dok_pemilihan": "Persyaratan Kualifikasi Tambahan:\nPenyedia wajib memiliki keanggotaan asosiasi regional ADCR-Jabar berstatus Gold Partner aktif.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "SPEC-REGIONAL-LOCKIN",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

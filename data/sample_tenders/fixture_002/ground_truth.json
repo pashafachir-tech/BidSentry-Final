@@ -1,0 +1,7 @@
+{
+  "fixture_id": "fixture_002",
+  "synthetic": true,
+  "purpose": "Regression fixture with required evidence text present and no expected issue flags.",
+  "expected_issue_ids": [],
+  "bid_deadline": "1 Juni 2026"
+}

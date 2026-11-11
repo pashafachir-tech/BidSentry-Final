@@ -1,0 +1,12 @@
+=== ID: doc_03_brand_lockin_gpu_with_equiv
+=== TITLE: Penyebutan GPU NVIDIA dengan Alternatif Setara
+=== PACKAGE: Pengadaan Server Pemrosesan Visual
+--- DOK_PEMILIHAN ---
+Unit Grafis Komputasi:
+Akselerator grafis NVIDIA H100 SXM5 atau akselerator grafis pabrikan lain yang setara performa komputasinya.
+Wajib memiliki NPWP.
+--- PUSTAKA ---
+NPWP: 02.456.789.1-012.000 aktif.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

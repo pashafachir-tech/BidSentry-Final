@@ -1,0 +1,10 @@
+=== ID: doc_23_empty_no_requirements
+=== TITLE: Dokumen Pengantar Umum Tanpa Syarat Pengadaan
+=== PACKAGE: Pengantar Renstra Institusi
+--- DOK_PEMILIHAN ---
+Dokumen ini merupakan pengantar rencana kerja tahunan lembaga pemerintah untuk sosialisasi umum.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

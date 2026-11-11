@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "langflow": {
+      "command": "uvx",
+      "args": [
+        "--with", "mcp<2.0.0",
+        "--python", "3.11",
+        "langflow",
+        "run",
+        "--mcp-server"
+      ],
+      "env": {
+        "LANGFLOW_HOST": "http://localhost:7860"
+      },
+      "description": "BidSentry Langflow MCP Server — exposes all Langflow flows as MCP tools. Requires Langflow running on port 7860.",
+      "metadata": {
+        "project": "BidSentry",
+        "version": "1.0.0",
+        "transport": "stdio",
+        "langflow_port": 7860
+      }
+    }
+  }
+}

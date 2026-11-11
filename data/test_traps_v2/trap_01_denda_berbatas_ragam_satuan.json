@@ -1,0 +1,20 @@
+{
+  "id": "trap_01_denda_berbatas_ragam_satuan",
+  "title": "Denda Berbatas dengan Beragam Satuan dan Frasa (5 Persen / Paling Banyak 5%)",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pengadaan Jasa Konstruksi Saluran Air",
+    "tender_id": "TND-TRAP-01",
+    "pokja_name": "Pokja Pemilihan Konstruksi Wilayah I",
+    "company_name": "PT Bina Karya Mandiri",
+    "contract_value_idr": 2500000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "BAB IV. JADWAL PENGADAAN\n1. Masa penyusunan dokumen penawaran diberikan selama 8 hari kerja.\n2. Masa sanggah terhadap hasil pemilihan selama 5 hari kerja penuh.",
+    "contract_draft": "BAB XI. KETENTUAN SANKSI DAN DENDA\n1. Keterlambatan pelaksanaan pekerjaan dikenakan denda sebesar 1/1000 per hari.\n2. Batas paling banyak denda adalah 5% dari nilai kontrak, dan total sanksi tidak melebihi lima persen."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "CON-PENALTY"
+  ]
+}

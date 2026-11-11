@@ -1,0 +1,8 @@
+# Optional async audit job engine (BIDSENTRY_JOB_ENGINE=redis). Not needed by the web UI.
+-r requirements.txt
+arq>=0.28,<0.29
+redis>=5.0,<6
+SQLAlchemy[asyncio]>=2.0,<3
+asyncpg>=0.29,<1
+aiosqlite>=0.20,<1
+pydantic-settings>=2.2,<3

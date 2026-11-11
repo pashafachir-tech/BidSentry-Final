@@ -1,0 +1,16 @@
+{
+  "id": "budget_04_prose_normative_guideline_trap",
+  "title": "Pedoman Normatif HPS Tidak Boleh Melebihi Pagu (Trap - Biaya Aman)",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pemeliharaan Gedung Kantor dan Sarana Prasarana",
+    "tender_id": "TND-BUDGET-04",
+    "dok_pemilihan": "KERANGKA ACUAN KERJA (KAK)\nBab Ketentuan Pembiayaan:\nSesuai Perpres No. 12 Tahun 2021, Harga Perkiraan Sendiri (HPS) tidak boleh melebihi pagu anggaran yang telah ditetapkan dalam DIPA Satuan Kerja. Dalam paket ini, alokasi pagu anggaran adalah sebesar Rp 2.500.000.000,- dan total biaya kebutuhan BoQ telah disusun secara cermat sebesar Rp 2.450.000.000,-.\nJadwal pemilihan: Waktu pemasukan penawaran 7 hari kerja dan masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal denda 5%."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "FIN-OVER-BUDGET"
+  ]
+}

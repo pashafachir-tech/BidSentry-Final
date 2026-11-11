@@ -1,0 +1,21 @@
+{
+  "id": "trap_08_kantor_lapangan_workshop",
+  "title": "Kebutuhan Fasilitas Workshop Lapangan yang Relevan Secara Teknis",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pemeliharaan dan Perbaikan Kendaraan Alat Berat Dinas",
+    "tender_id": "TND-TRAP-08",
+    "pokja_name": "Pokja Sarpras PU",
+    "company_name": "PT Mekanik Nusantara",
+    "contract_value_idr": 1200000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "PERSYARATAN DUKUNGAN TEKNIS:\nPenyedia menyediakan fasilitas workshop dan bengkel kerja di lokasi pekerjaan selama masa pemeliharaan untuk menjamin respons cepat perbaikan mesin.\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5%."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "DISC-GEO-BRANCH",
+    "DISC-GEO-DOMICILE"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "blind_02_pengadaan_laptop_lockin_intel",
+  "title": "Pengadaan Laptop Dinas dengan Penguncian Merek Intel Tanpa Opsi Setara",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Laptop Mobilitas Pegawai",
+    "tender_id": "TND-LAPTOP-2026-09",
+    "dok_pemilihan": "BAB III. SPESIFIKASI TEKNIS PERALATAN\n1. Unit laptop wajib menggunakan prosesor Intel Core Ultra 7 155H 16-Core dengan Intel AI Boost NPU.\n2. Tidak menerima prosesor dari pabrikan lain seperti AMD Ryzen demi keseragaman arsitektur komputasi kantor.\n3. Kapasitas RAM 32GB LPDDR5X-7467 MHz onboard.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5 persen."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "SPEC-LOCKIN-PROC": "GAP"
+  },
+  "forbidden_findings": []
+}

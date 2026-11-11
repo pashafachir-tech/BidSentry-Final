@@ -1,0 +1,17 @@
+{
+  "id": "doc_06_sufficient_timeline_8days",
+  "title": "Jadwal Pemilihan Cukup Sesuai Pedoman LKPP",
+  "description": "Kasus negatif: Jadwal pemasukan 8 hari kerja (standar minimal LKPP 7 hari).",
+  "input": {
+    "package_name": "Pengadaan Kabel Fiber Optik",
+    "dok_pemilihan": "Ketentuan Pelaksanaan Lelang:\nWaktu penyusunan dan pemasukan penawaran diberikan selama 8 hari kerja sesuai batas wajar regulasi pengadaan.",
+    "pustaka": ""
+  },
+  "expected_findings": [],
+  "forbidden_findings": [
+    "PROC-TIMELINE-COMPRESSED"
+  ],
+  "expected_verdict": "GO",
+  "is_trap": true,
+  "trap_reason": "Waktu penawaran 8 hari kerja memenuhi standar LKPP (minimal 7 hari kerja)."
+}

@@ -1,0 +1,12 @@
+=== ID: doc_08_normative_integrity_no_coi
+=== TITLE: Pakta Integritas Bebas Benturan Kepentingan
+=== PACKAGE: Jasa Pemeliharaan Sistem Informasi
+--- DOK_PEMILIHAN ---
+Pakta Integritas:
+Peserta membuat pernyataan resmi bebas dari benturan kepentingan dengan pejabat pengadaan maupun Pokja Pemilihan.
+Wajib melampirkan NPWP.
+--- PUSTAKA ---
+NPWP terlampir: 01.999.888.7-654.000
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

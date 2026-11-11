@@ -1,0 +1,13 @@
+=== ID: doc_11_actual_overbudget_boq
+=== TITLE: Total BoQ Melebihi Pagu Anggaran Riil
+=== PACKAGE: Pembangunan Data Center Mini
+--- DOK_PEMILIHAN ---
+Rincian Anggaran Paket:
+Pagu Anggaran : Rp 4.000.000.000
+TOTAL BIAYA BoQ : Rp 5.200.000.000
+SELISIH (OVER BUDGET) : Rp 1.200.000.000
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

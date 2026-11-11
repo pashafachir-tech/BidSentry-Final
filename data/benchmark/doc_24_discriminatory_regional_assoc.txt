@@ -1,0 +1,11 @@
+=== ID: doc_24_discriminatory_regional_assoc
+=== TITLE: Syarat Asosiasi Regional Diskriminatif ADCR-Jabar
+=== PACKAGE: Pembangunan Fasilitas Modular Data Center
+--- DOK_PEMILIHAN ---
+Persyaratan Kualifikasi Tambahan:
+Penyedia wajib memiliki keanggotaan asosiasi regional ADCR-Jabar berstatus Gold Partner aktif.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

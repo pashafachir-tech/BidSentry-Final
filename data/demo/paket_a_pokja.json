@@ -1,0 +1,23 @@
+{
+  "key": "A",
+  "role": "pokja",
+  "title": "Paket A · Pokja · Konstruksi gedung laboratorium",
+  "story": "Pokja memeriksa dokumen sebelum tayang: HPS melampaui pagu dan rancangan kontrak memuat denda tanpa batas. Satu SBU peserta juga hampir kedaluwarsa.",
+  "synthetic": true,
+  "request": {
+    "package_name": "Pembangunan Gedung Laboratorium Terpadu (Demo Paket A)",
+    "tender_id": "DEMO-A-LAB-2026",
+    "notice_number": "LPSE-DEMO-2026-A",
+    "pokja_name": "Pokja Pemilihan Konstruksi 3",
+    "company_name": "PT Bangun Persada Nusantara",
+    "contract_value_idr": 12950000000,
+    "bid_deadline": "20 Oktober 2026",
+    "review_role": "procurement",
+    "dok_pemilihan": "BAB I. KETENTUAN UMUM\nPaket pekerjaan konstruksi pembangunan gedung laboratorium terpadu tiga lantai.\n\nBAB II. ANGGARAN\nPagu Anggaran DIPA tahun 2026 adalah sebesar Rp 12.000.000.000.\nTotal HPS hasil rekapitulasi BoQ adalah Rp 12.950.000.000.\nPekerjaan persiapan dan mobilisasi | 1 ls | Rp 450.000.000 | Rp 450.000.000\nPekerjaan struktur beton bertulang | 1200 m3 | Rp 4.500.000 | Rp 5.400.000.000\nPekerjaan arsitektur dan finishing | 1 ls | Rp 4.100.000.000 | Rp 4.100.000.000\nPekerjaan mekanikal elektrikal | 1 ls | Rp 3.000.000.000 | Rp 3.000.000.000\n\nBAB III. PERSYARATAN KUALIFIKASI\n1. Peserta wajib memiliki Sertifikat Badan Usaha (SBU) Bangunan Gedung yang masih berlaku.\n2. Peserta wajib melampirkan Nomor Induk Berusaha (NIB) dan NPWP aktif.\n3. Jaminan penawaran sebesar Rp 250.000.000.",
+    "pustaka": "Dokumen Kualifikasi PT Bangun Persada Nusantara\n1. NPWP Perusahaan: 01.234.567.8-901.000 (status terdaftar)\n2. NIB: 9120004567812 (terdaftar OSS)\n3. SBU Bangunan Gedung berlaku hingga 5 November 2026.\n4. Jaminan penawaran Bank Persada sebesar Rp 250.000.000.",
+    "contract_draft": "SYARAT-SYARAT KHUSUS KONTRAK\nPasal 12. Denda Keterlambatan\nApabila Penyedia terlambat menyelesaikan pekerjaan, dikenakan denda keterlambatan sebesar 1/1000 per hari dari nilai kontrak tanpa batas maksimal.",
+    "adendum": "",
+    "baseline_contract": "",
+    "allow_external_processing": false
+  }
+}

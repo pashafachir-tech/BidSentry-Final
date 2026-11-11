@@ -1,0 +1,10 @@
+{
+  "fixture_id": "LPSE-KEMKES-10261197000",
+  "source_type": "public_lpse_package_listing",
+  "source_url": "https://spse.inaproc.id/kemkes/nontender/10261197000/pengumumanpl",
+  "source_accessed": "2026-10-26",
+  "source_page_count": 1,
+  "expected_check_ids": ["ADM-KSWP", "ADM-SBU"],
+  "annotation_scope": "Supported administrative checks explicitly stated in the public package listing; not every qualification criterion in the tender.",
+  "annotation_note": "Single-maintainer mapping from exact public-page text to supported rule IDs. No bidder evidence was available, so this measures requirement-check extraction only, not compliance or issue detection."
+}

@@ -1,0 +1,11 @@
+=== ID: doc_10_normative_pagu_guideline
+=== TITLE: Pedoman Umum HPS Tidak Boleh Melebihi Pagu
+=== PACKAGE: Pengadaan Alat Tulis Kantor
+--- DOK_PEMILIHAN ---
+Petunjuk Umum Pengadaan:
+Dalam menyusun penawaran, HPS tidak boleh melebihi pagu anggaran yang telah disahkan.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

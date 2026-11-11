@@ -1,0 +1,17 @@
+{
+  "id": "doc_10_normative_pagu_guideline",
+  "title": "Pedoman Umum HPS Tidak Boleh Melebihi Pagu",
+  "description": "Jebakan: Kalimat normatif aturan bahwa HPS tidak boleh melebihi pagu tanpa angka defisit.",
+  "input": {
+    "package_name": "Pengadaan Alat Tulis Kantor",
+    "dok_pemilihan": "Petunjuk Umum Pengadaan:\nDalam menyusun penawaran, HPS tidak boleh melebihi pagu anggaran yang telah disahkan.",
+    "pustaka": ""
+  },
+  "expected_findings": [],
+  "forbidden_findings": [
+    "FIN-OVER-BUDGET"
+  ],
+  "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+  "is_trap": true,
+  "trap_reason": "Kalimat normatif pedoman HPS tidak memuat angka defisit/over budget."
+}

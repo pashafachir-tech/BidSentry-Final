@@ -1,0 +1,16 @@
+{
+  "id": "blind_09_konsultan_billing_rate_tinggi",
+  "title": "Tarif Remunerasi Man-Month Tenaga Ahli Melambung Melebihi Standar INKINDO",
+  "is_trap": false,
+  "request": {
+    "package_name": "Jasa Konsultansi Pengawasan Jalan Tol Trans Regional",
+    "tender_id": "TND-ROAD-2026-90",
+    "dok_pemilihan": "BAB VI. KEBUTUHAN PERSONEL DAN BIAYA LANGSUNG PERSONEL\n1. Posisi Senior Project Manager: Billing rate ditetapkan sebesar Rp 140.000.000 per bulan.\n2. Posisi Lead Highway Engineer: Billing rate ditetapkan sebesar Rp 110.000.000 per bulan.\n3. Masa penawaran 7 hari kerja dan masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda 1/1000 per hari maksimal 5%."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "FIN-BILLING-RATE": "GAP"
+  },
+  "forbidden_findings": []
+}

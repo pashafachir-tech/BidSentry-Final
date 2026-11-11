@@ -1,0 +1,15 @@
+{
+  "id": "doc_23_empty_no_requirements",
+  "title": "Dokumen Pengantar Umum Tanpa Syarat Pengadaan",
+  "description": "Kasus negatif: Dokumen hanya berisi kata pengantar dan narasi umum tanpa klausul evaluasi.",
+  "input": {
+    "package_name": "Pengantar Renstra Institusi",
+    "dok_pemilihan": "Dokumen ini merupakan pengantar rencana kerja tahunan lembaga pemerintah untuk sosialisasi umum.",
+    "pustaka": ""
+  },
+  "expected_findings": [],
+  "forbidden_findings": [],
+  "expected_verdict": "TIDAK ADA SYARAT TERBACA",
+  "is_trap": true,
+  "trap_reason": "Tidak memuat klausul persyaratan pengadaan apa pun."
+}

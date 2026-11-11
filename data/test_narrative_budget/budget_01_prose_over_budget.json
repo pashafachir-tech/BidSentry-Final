@@ -1,0 +1,16 @@
+{
+  "id": "budget_01_prose_over_budget",
+  "title": "Pengadaan Sistem ERP dengan Prosa Naratif BoQ Melebihi Pagu DIPA",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Jasa Konsultansi Implementasi Sistem ERP",
+    "tender_id": "TND-BUDGET-01",
+    "dok_pemilihan": "KERANGKA ACUAN KERJA (KAK)\nBab I. Latar Belakang dan Pendanaan\nPagu anggaran yang tersedia pada DIPA Satker adalah sebesar Rp 5.000.000.000,- (Lima Miliar Rupiah) untuk tahun anggaran berjalan. Berdasarkan hasil rekapitulasi perhitungan teknis Bill of Quantities (BoQ), total rincian biaya kebutuhan mencapai Rp 6.250.000.000,- (Enam Koma Dua Puluh Lima Miliar Rupiah).\nJadwal pelaksanaan pengadaan: Masa pemasukan dokumen penawaran 8 hari kerja dan masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan ditetapkan sebesar 1/1000 per hari dengan batas maksimal denda 5%."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "FIN-OVER-BUDGET": "GAP"
+  },
+  "forbidden_findings": []
+}

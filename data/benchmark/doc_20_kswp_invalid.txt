@@ -1,0 +1,12 @@
+=== ID: doc_20_kswp_invalid
+=== TITLE: Status KSWP Tidak Terkonfirmasi pada Sistem DJP
+=== PACKAGE: Pengadaan Jasa Keamanan Gedung
+--- DOK_PEMILIHAN ---
+Syarat Kualifikasi:
+Wajib melampirkan KSWP valid.
+--- PUSTAKA ---
+Surat Keterangan Fiskal:
+Status KSWP: tidak terkonfirmasi oleh Kantor Pelayanan Pajak.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

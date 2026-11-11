@@ -1,0 +1,21 @@
+{
+  "id": "trap_07_jadwal_standar_lkpp",
+  "title": "Jadwal Pemilihan Standar LKPP (Penawaran 7 Hari Kerja, Sanggah 5 Hari Kerja)",
+  "is_trap": true,
+  "request": {
+    "package_name": "Pengadaan Jasa Konsultansi Pengawasan Gedung",
+    "tender_id": "TND-TRAP-07",
+    "pokja_name": "Pokja Jasa Konsultansi",
+    "company_name": "PT Cipta Reka Paramita",
+    "contract_value_idr": 450000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "JADWAL TENDER:\n1. Masa penyusunan dokumen penawaran diberikan selama 7 hari kerja sejak pengumuman lelang.\n2. Masa sanggah penetapan pemenang diberikan selama 5 hari kerja penuh melalui SPSE.\n\nKUALIFIKASI:\nMemenuhi syarat legalitas formal.",
+    "contract_draft": "Denda keterlambatan 1/1000 per hari dengan batas maksimal 5 persen."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "PROC-TIMELINE-COMPRESSED",
+    "PROC-TIMELINE-EXPEDITED"
+  ]
+}

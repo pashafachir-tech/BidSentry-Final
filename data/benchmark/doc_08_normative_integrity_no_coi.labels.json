@@ -1,0 +1,22 @@
+{
+  "id": "doc_08_normative_integrity_no_coi",
+  "title": "Pakta Integritas Bebas Benturan Kepentingan",
+  "description": "Jebakan: Teks menyatakan bebas benturan kepentingan, bukan pelanggaran.",
+  "input": {
+    "package_name": "Jasa Pemeliharaan Sistem Informasi",
+    "dok_pemilihan": "Pakta Integritas:\nPeserta membuat pernyataan resmi bebas dari benturan kepentingan dengan pejabat pengadaan maupun Pokja Pemilihan.\nWajib melampirkan NPWP.",
+    "pustaka": "NPWP terlampir: 01.999.888.7-654.000"
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-NPWP",
+      "status": "TERPENUHI"
+    }
+  ],
+  "forbidden_findings": [
+    "GOV-CONFLICT-INTEREST"
+  ],
+  "expected_verdict": "GO",
+  "is_trap": true,
+  "trap_reason": "Frasa 'bebas dari benturan kepentingan' adalah komitmen integritas, bukan indikasi pelanggaran."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "doc_09_actual_coi_recom_letter",
+  "title": "Syarat Rekomendasi Mantan Pejabat Internal",
+  "description": "Pelanggaran integritas: Wajib surat rekomendasi mantan pejabat internal.",
+  "input": {
+    "package_name": "Konsultansi Tata Kelola TI",
+    "dok_pemilihan": "Persyaratan Khusus Kualifikasi:\nPeserta wajib menyertakan surat rekomendasi dari mantan Kepala Divisi TI yang terafiliasi dengan pemberi kerja.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "GOV-CONFLICT-INTEREST",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

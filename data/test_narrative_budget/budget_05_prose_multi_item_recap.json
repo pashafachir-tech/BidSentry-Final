@@ -1,0 +1,16 @@
+{
+  "id": "budget_05_prose_multi_item_recap",
+  "title": "Modernisasi Data Center dengan Total Rincian Biaya Naratif Melebihi Pagu",
+  "is_trap": false,
+  "request": {
+    "package_name": "Paket Pekerjaan Modernisasi dan Revitalisasi Data Center",
+    "tender_id": "TND-BUDGET-05",
+    "dok_pemilihan": "KERANGKA ACUAN KERJA (KAK)\nBab 2. Rencana Anggaran Belanja\nAnggaran yang dialokasikan dalam APBN untuk pelaksanaan proyek modernisasi data center ini memiliki pagu dana sebesar Rp 10.000.000.000,-. Dari estimasi konsultan perencana, total rincian biaya belanja hardware dan implementasi mencapai Rp 12.800.000.000,- yang melebihi batas DIPA berjalan.\nJadwal pelaksanaan: Pemasukan dokumen penawaran 8 hari kerja, sanggah 5 hari kerja.",
+    "contract_draft": "Denda keterlambatan ditetapkan 1/1000 per hari dengan batas maksimal denda 5%."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "FIN-OVER-BUDGET": "GAP"
+  },
+  "forbidden_findings": []
+}

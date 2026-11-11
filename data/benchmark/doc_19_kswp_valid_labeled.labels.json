@@ -1,0 +1,20 @@
+{
+  "id": "doc_19_kswp_valid_labeled",
+  "title": "Status KSWP Valid Terkonfirmasi",
+  "description": "Pemenuhan kewajiban pajak: Bukti KSWP terkonfirmasi aktif.",
+  "input": {
+    "package_name": "Pengadaan Seragam Pegawai",
+    "dok_pemilihan": "Syarat Administrasi:\nWajib melampirkan Konfirmasi Status Wajib Pajak (KSWP).",
+    "pustaka": "Bukti Layanan Pajak:\nKonfirmasi Status Wajib Pajak (KSWP): Status Valid Terkonfirmasi."
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-KSWP",
+      "status": "TERPENUHI"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "GO",
+  "is_trap": false,
+  "trap_reason": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "trap_09_english_equivalent_clause",
+  "title": "Klausul Draf Kontrak Bahasa Inggris dengan Batas Denda dan Ekuivalensi Merek",
+  "is_trap": true,
+  "request": {
+    "package_name": "Data Center Storage Hardware Expansion",
+    "tender_id": "TND-TRAP-09",
+    "pokja_name": "Pokja Infrastruktur Data Center",
+    "company_name": "PT Enterprise Data Solusindo",
+    "contract_value_idr": 4800000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "TECHNICAL SPECIFICATIONS:\nStorage controller model Dell PowerEdge R750 or equivalent with equal or better specifications.\nBidding period 10 working days, objection period 7 working days.",
+    "contract_draft": "CONTRACT TERMS:\nLiquidated damages of 0.1% per day, capped at 5 percent of the total contract price."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "CON-PENALTY",
+    "SPEC-BRAND-LOCKIN"
+  ]
+}

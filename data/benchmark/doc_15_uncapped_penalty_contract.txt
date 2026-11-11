@@ -1,0 +1,11 @@
+=== ID: doc_15_uncapped_penalty_contract
+=== TITLE: Klausul Denda Keterlambatan Tanpa Batas Maksimum
+=== PACKAGE: Pekerjaan Instalasi Generator
+--- DOK_PEMILIHAN ---
+Syarat Khusus Kontrak:
+Denda keterlambatan ditetapkan sebesar 1/1000 per hari dari nilai kontrak tanpa batas maksimal denda.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+Denda keterlambatan 1/1000 per hari dari nilai kontrak.
+--- ADENDUM ---

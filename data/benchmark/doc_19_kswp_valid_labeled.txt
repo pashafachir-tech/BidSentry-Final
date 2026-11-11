@@ -1,0 +1,12 @@
+=== ID: doc_19_kswp_valid_labeled
+=== TITLE: Status KSWP Valid Terkonfirmasi
+=== PACKAGE: Pengadaan Seragam Pegawai
+--- DOK_PEMILIHAN ---
+Syarat Administrasi:
+Wajib melampirkan Konfirmasi Status Wajib Pajak (KSWP).
+--- PUSTAKA ---
+Bukti Layanan Pajak:
+Konfirmasi Status Wajib Pajak (KSWP): Status Valid Terkonfirmasi.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

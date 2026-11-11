@@ -1,0 +1,20 @@
+{
+  "id": "doc_04_brand_lockin_gpu_strict",
+  "title": "Penguncian GPU NVIDIA H100 SXM5 dan NVLink 4.0",
+  "description": "Pelanggaran spesifikasi: GPU dikunci tanpa klausul setara.",
+  "input": {
+    "package_name": "Cluster Server High Performance Computing",
+    "dok_pemilihan": "Spesifikasi GPU Node:\nWajib dilengkapi 8x NVIDIA H100 SXM5 80GB dengan koneksi interkoneksi NVLink 4.0 antar GPU.",
+    "pustaka": ""
+  },
+  "expected_findings": [
+    {
+      "id": "SPEC-LOCKIN-GPU",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "blind_08_meubeler_sbu_hampir_kadaluwarsa",
+  "title": "Penyedia Melampirkan SBU yang Masa Berlakunya Kurang dari 30 Hari",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Meubeler Kantor dan Ruang Rapat",
+    "tender_id": "TND-FURN-2026-22",
+    "bid_deadline": "20 Oktober 2026",
+    "dok_pemilihan": "BAB IV. PERSYARATAN KUALIFIKASI\n1. Penyedia wajib memiliki Sertifikat Badan Usaha (SBU) yang masih berlaku pada saat batas akhir pemasukan penawaran.",
+    "pustaka": "LAMPIRAN KREDENSIAL PENYEDIA\n1. Nomor Pokok Wajib Pajak: 01.222.333.4-555.000 status aktif.\n2. Sertifikat Badan Usaha SBU terbit tanggal 28 Oktober 2023, berlaku sampai dengan 28 Oktober 2026.",
+    "contract_draft": "Denda 1/1000 per hari maksimal 5%."
+  },
+  "expected_verdict": "BELUM CUKUP BUKTI",
+  "expected_findings": {
+    "ADM-SBU": "EXPIRING"
+  },
+  "forbidden_findings": []
+}

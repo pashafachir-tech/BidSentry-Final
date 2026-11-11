@@ -1,0 +1,11 @@
+=== ID: doc_17_sbu_expired
+=== TITLE: Masa Berlaku SBU Penyedia Telah Kedaluwarsa
+=== PACKAGE: Pembangunan Gedung Arsip Digital
+--- DOK_PEMILIHAN ---
+Syarat Kualifikasi:
+Peserta wajib memiliki SBU bidang konstruksi yang masih berlaku.
+--- PUSTAKA ---
+Sertifikat Badan Usaha (SBU) diterbitkan tanggal 10 Maret 2019, berlaku sampai 10 Maret 2022.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

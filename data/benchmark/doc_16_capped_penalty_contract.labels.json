@@ -1,0 +1,18 @@
+{
+  "id": "doc_16_capped_penalty_contract",
+  "title": "Klausul Denda Standar dengan Batas Maksimal 5 Persen",
+  "description": "Jebakan: Denda memiliki batas maksimal 5% sesuai regulasi LKPP.",
+  "input": {
+    "package_name": "Pengadaan Meubelair Kantor",
+    "dok_pemilihan": "Ketentuan Kontrak:\nDenda keterlambatan sebesar 1/1000 per hari dengan batas maksimal denda 5% dari nilai kontrak.",
+    "contract_draft": "Denda keterlambatan sebesar 1/1000 per hari dengan batas maksimal 5% dari nilai kontrak.",
+    "pustaka": ""
+  },
+  "expected_findings": [],
+  "forbidden_findings": [
+    "CON-PENALTY"
+  ],
+  "expected_verdict": "GO",
+  "is_trap": true,
+  "trap_reason": "Denda memiliki plafon maksimal 5% sehingga tidak merupakan uncapped poison pill."
+}

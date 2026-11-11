@@ -1,0 +1,11 @@
+=== ID: doc_02_brand_lockin_cpu_only
+=== TITLE: Penguncian Spesifikasi CPU Intel Emerald Rapids
+=== PACKAGE: Pengadaan Compute Node AI
+--- DOK_PEMILIHAN ---
+Spesifikasi Server Utama:
+Wajib menggunakan prosesor Intel Xeon Emerald Rapids dengan interkoneksi UPI 4.0 dan fitur Intel VMD aktif tanpa alternatif merk lain.
+--- PUSTAKA ---
+Brosur penawaran server sesuai spek.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

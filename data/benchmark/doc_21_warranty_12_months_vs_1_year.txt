@@ -1,0 +1,12 @@
+=== ID: doc_21_warranty_12_months_vs_1_year
+=== TITLE: Pemenuhan Garansi 12 Bulan Memenuhi Syarat 1 Tahun
+=== PACKAGE: Pengadaan Switch Core Jaringan
+--- DOK_PEMILIHAN ---
+Syarat Dukungan Pabrikan:
+Garansi resmi perangkat minimal 1 tahun.
+--- PUSTAKA ---
+Surat Jaminan Distributor:
+Garansi pabrikan diberikan selama 12 bulan purna jual.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

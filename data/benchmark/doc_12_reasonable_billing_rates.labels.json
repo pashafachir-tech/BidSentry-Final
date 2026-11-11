@@ -1,0 +1,17 @@
+{
+  "id": "doc_12_reasonable_billing_rates",
+  "title": "Tarif Remunerasi Tenaga Ahli Sesuai Standar INKINDO",
+  "description": "Kasus negatif: Billing rate konsultan masih dalam batas wajar standar nasional.",
+  "input": {
+    "package_name": "Kajian Blueprint Enterprise Architecture",
+    "dok_pemilihan": "Komponen Biaya Personel:\nSolution Architect Rp 45.000.000 per bulan, Project Manager Rp 40.000.000 per bulan sesuai pedoman standar INKINDO.",
+    "pustaka": ""
+  },
+  "expected_findings": [],
+  "forbidden_findings": [
+    "FIN-MARKUP-RATE"
+  ],
+  "expected_verdict": "GO",
+  "is_trap": true,
+  "trap_reason": "Tarif konsultan 40-45 juta per bulan berada dalam koridor standar kewajaran INKINDO."
+}

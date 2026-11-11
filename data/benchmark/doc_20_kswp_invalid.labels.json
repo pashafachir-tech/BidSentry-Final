@@ -1,0 +1,20 @@
+{
+  "id": "doc_20_kswp_invalid",
+  "title": "Status KSWP Tidak Terkonfirmasi pada Sistem DJP",
+  "description": "Kegagalan administrasi pajak: KSWP berstatus tidak terkonfirmasi.",
+  "input": {
+    "package_name": "Pengadaan Jasa Keamanan Gedung",
+    "dok_pemilihan": "Syarat Kualifikasi:\nWajib melampirkan KSWP valid.",
+    "pustaka": "Surat Keterangan Fiskal:\nStatus KSWP: tidak terkonfirmasi oleh Kantor Pelayanan Pajak."
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-KSWP",
+      "status": "GAP"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "NO-GO",
+  "is_trap": false,
+  "trap_reason": null
+}

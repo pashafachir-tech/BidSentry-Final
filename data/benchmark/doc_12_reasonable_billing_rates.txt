@@ -1,0 +1,11 @@
+=== ID: doc_12_reasonable_billing_rates
+=== TITLE: Tarif Remunerasi Tenaga Ahli Sesuai Standar INKINDO
+=== PACKAGE: Kajian Blueprint Enterprise Architecture
+--- DOK_PEMILIHAN ---
+Komponen Biaya Personel:
+Solution Architect Rp 45.000.000 per bulan, Project Manager Rp 40.000.000 per bulan sesuai pedoman standar INKINDO.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

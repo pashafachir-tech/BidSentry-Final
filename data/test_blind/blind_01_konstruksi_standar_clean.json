@@ -1,0 +1,29 @@
+{
+  "id": "blind_01_konstruksi_standar_clean",
+  "title": "Rehabilitasi Gedung Kantor Pemerintah Daerah (Patuh & Bersih)",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pekerjaan Rehabilitasi Gedung Bappeda Provinsi",
+    "tender_id": "TND-REHAB-2026-01",
+    "pokja_name": "Pokja Pemilihan Konstruksi Wilayah I",
+    "company_name": "PT Cipta Graha Mandiri",
+    "contract_value_idr": 4500000000,
+    "bid_deadline": "10 November 2026",
+    "dok_pemilihan": "KERANGKA ACUAN KERJA & SPESIFIKASI TEKNIS\nPaket: Rehabilitasi Gedung Kantor Bappeda\nPagu Anggaran: Rp 4.500.000.000,- (Empat Koma Lima Miliar Rupiah)\nHPS: Rp 4.420.000.000,-\n\nBAB IV. JADWAL PENGADAAN\n1. Masa penyusunan dan pengunggahan penawaran diberikan selama 8 hari kerja sejak pengumuman lelang.\n2. Masa sanggah terhadap penetapan pemenang pemilihan diberikan selama 5 hari kerja penuh melalui sistem SPSE.\n\nBAB V. SYARAT KUALIFIKASI PENYEDIA\n1. Memiliki Nomor Induk Berusaha (NIB) berbasis risiko yang masih berlaku.\n2. Memiliki NPWP Perusahaan dan konfirmasi status wajib pajak (KSWP) berstatus valid.\n3. Memiliki Sertifikat Badan Usaha (SBU) Jasa Pelaksana Konstruksi Gedung Perkantoran (BG004/BG009) yang masih berlaku.",
+    "pustaka": "DOKUMEN KUALIFIKASI PENYEDIA\n1. Nomor Induk Berusaha (NIB): 9120005678912 terdaftar resmi OSS Kementerian Investasi/BKPM.\n2. NPWP Perusahaan: 01.445.678.9-012.000 (status KSWP valid tercatat di DJP).\n3. SBU BG004 terbit 12 Januari 2024, masa berlaku sampai dengan 12 Januari 2029.",
+    "contract_draft": "BAB XI. DENDA DAN SANKSI KETERLAMBATAN\n1. Keterlambatan pelaksanaan pekerjaan dikenakan denda sebesar 1/1000 (satu per mil) dari nilai kontrak per hari keterlambatan.\n2. Batas maksimal denda keterlambatan ditetapkan sebesar 5% (lima persen) dari nilai kontrak pekerjaan."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {
+    "ADM-NPWP": "TERPENUHI",
+    "ADM-NIB": "TERPENUHI",
+    "ADM-SBU": "TERPENUHI"
+  },
+  "forbidden_findings": [
+    "SPEC-LOCKIN-PROC",
+    "PROC-TIMELINE-SANGGAH",
+    "PROC-TIMELINE-PREP",
+    "CON-PENALTY",
+    "FIN-HPS-OVER-PAGU"
+  ]
+}

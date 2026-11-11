@@ -1,0 +1,11 @@
+=== ID: doc_13_markup_billing_rate_pm
+=== TITLE: Mark-Up Tarif Remunerasi Project Manager
+=== PACKAGE: Pengembangan Portal Layanan Satu Data
+--- DOK_PEMILIHAN ---
+Komponen Biaya Tenaga Ahli:
+Project Manager sebesar Rp 140.000.000 per bulan untuk durasi 6 bulan.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

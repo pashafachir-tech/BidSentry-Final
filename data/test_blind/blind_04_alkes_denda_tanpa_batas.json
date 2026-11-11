@@ -1,0 +1,17 @@
+{
+  "id": "blind_04_alkes_denda_tanpa_batas",
+  "title": "Pengadaan CT Scan Rumah Sakit dengan Klausul Denda Tanpa Batas Maksimal",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Diagnostic Imaging CT-Scan 128 Slices",
+    "tender_id": "TND-ALKES-2026-11",
+    "contract_value_idr": 12500000000,
+    "dok_pemilihan": "Spesifikasi alat diagnostik rumah sakit standar internasional.",
+    "contract_draft": "BAB XIV. SANKSI KETERLAMBATAN\n1. Apabila Penyedia gagal menyelesaikan serah terima tepat waktu, dikenakan denda keterlambatan sebesar 1/1000 per hari dari total nilai kontrak tanpa batas maksimal denda kumulatif."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "CON-PENALTY": "GAP"
+  },
+  "forbidden_findings": []
+}

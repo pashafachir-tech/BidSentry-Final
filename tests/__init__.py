@@ -1,0 +1,1 @@
+"""BidSentry automated checks."""

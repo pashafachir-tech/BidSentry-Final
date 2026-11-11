@@ -1,0 +1,12 @@
+=== ID: doc_22_warranty_deficient
+=== TITLE: Durasi Garansi Penawaran Kurang dari Ketentuan Syarat
+=== PACKAGE: Pengadaan Alat Pendingin Precision Data Center
+--- DOK_PEMILIHAN ---
+Syarat Teknis Utama:
+Garansi purna jual unit minimal 3 tahun.
+--- PUSTAKA ---
+Brosur dan Surat Jaminan:
+Garansi kompresor dan sparepart 12 bulan.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

@@ -1,0 +1,21 @@
+{
+  "id": "doc_18_sbu_valid_broken_lines",
+  "title": "SBU Aktif dengan Garis Teks Terpotong Karakter Baris Baru",
+  "description": "Teks ekstraksi PDF: Tanggal berlaku terpisah baris baru dan berlaku hingga 2030.",
+  "input": {
+    "package_name": "Pekerjaan Mekanikal Elektrikal",
+    "dok_pemilihan": "Persyaratan Dokumen:\nPeserta wajib melampirkan SBU elektrikal.",
+    "pustaka": "Lampiran Dokumen Perusahaan:\nSertifikat Badan Usaha (SBU) registrasi aktif\nberlaku sampai dengan\n25 Desember 2030 oleh LPJK.",
+    "bid_deadline": "1 Juni 2026"
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-SBU",
+      "status": "TERPENUHI"
+    }
+  ],
+  "forbidden_findings": [],
+  "expected_verdict": "GO",
+  "is_trap": false,
+  "trap_reason": null
+}

@@ -1,0 +1,15 @@
+=== ID: doc_01_clean_ict_procurement
+=== TITLE: Pengadaan Server Standar dengan Klausul Setara
+=== PACKAGE: Pengadaan Komputer Server Kanwil
+--- DOK_PEMILIHAN ---
+Persyaratan Teknis Server:
+1. Menggunakan prosesor Intel Xeon Scalable atau setara yang setara performanya.
+2. Waktu penyusunan dan pemasukan penawaran diberikan selama 14 hari kerja.
+3. Wajib melampirkan Nomor Induk Berusaha (NIB) dan NPWP aktif.
+--- PUSTAKA ---
+Dokumen Kualifikasi:
+NPWP: 01.234.567.8-901.000
+Nomor Induk Berusaha (NIB): 9120001234567 terbit dan aktif.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

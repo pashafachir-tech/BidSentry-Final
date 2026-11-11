@@ -1,0 +1,14 @@
+=== ID: doc_18_sbu_valid_broken_lines
+=== TITLE: SBU Aktif dengan Garis Teks Terpotong Karakter Baris Baru
+=== PACKAGE: Pekerjaan Mekanikal Elektrikal
+--- DOK_PEMILIHAN ---
+Persyaratan Dokumen:
+Peserta wajib melampirkan SBU elektrikal.
+--- PUSTAKA ---
+Lampiran Dokumen Perusahaan:
+Sertifikat Badan Usaha (SBU) registrasi aktif
+berlaku sampai dengan
+25 Desember 2030 oleh LPJK.
+--- CONTRACT_DRAFT ---
+
+--- ADENDUM ---

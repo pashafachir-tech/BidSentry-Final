@@ -1,0 +1,17 @@
+{
+  "id": "blind_07_sewa_kendaraan_equivalent_trap",
+  "title": "Penyebutan Tipe Kendaraan Disertai Klausul Kesetaraan (Trap Case - Sah)",
+  "is_trap": true,
+  "request": {
+    "package_name": "Sewa Kendaraan Operasional Lapangan",
+    "tender_id": "TND-FLEET-2026-17",
+    "dok_pemilihan": "BAB III. SPESIFIKASI ARMADA\n1. Kebutuhan kendaraan operasional berupa tipe MPV 7-Seater sekelas Toyota Innova Zenix atau kendaraan sejenis yang setara (equivalent).\n2. Mesin kapasitas 2.000 cc bensin atau hybrid efisiensi tinggi.\n3. Masa penawaran 7 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "Denda 1/1000 per hari dengan batas maksimal 5 persen."
+  },
+  "expected_verdict": "GO",
+  "expected_findings": {},
+  "forbidden_findings": [
+    "SPEC-LOCKIN-PROC",
+    "SPEC-LOCKIN-GPU"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "doc_01_clean_ict_procurement",
+  "title": "Pengadaan Server Standar dengan Klausul Setara",
+  "description": "Jebakan: Prosesor Intel Xeon disebut tetapi dengan klausul 'atau setara'. NPWP & NIB valid. Jadwal 14 hari.",
+  "input": {
+    "package_name": "Pengadaan Komputer Server Kanwil",
+    "dok_pemilihan": "Persyaratan Teknis Server:\n1. Menggunakan prosesor Intel Xeon Scalable atau setara yang setara performanya.\n2. Waktu penyusunan dan pemasukan penawaran diberikan selama 14 hari kerja.\n3. Wajib melampirkan Nomor Induk Berusaha (NIB) dan NPWP aktif.",
+    "pustaka": "Dokumen Kualifikasi:\nNPWP: 01.234.567.8-901.000\nNomor Induk Berusaha (NIB): 9120001234567 terbit dan aktif."
+  },
+  "expected_findings": [
+    {
+      "id": "ADM-NPWP",
+      "status": "TERPENUHI"
+    },
+    {
+      "id": "ADM-NIB",
+      "status": "TERPENUHI"
+    }
+  ],
+  "forbidden_findings": [
+    "SPEC-LOCKIN-CPU",
+    "PROC-TIMELINE-COMPRESSED"
+  ],
+  "expected_verdict": "GO",
+  "is_trap": true,
+  "trap_reason": "Menyebut Intel Xeon namun diikuti frasa 'atau setara', jadwal lelang longgar 14 hari."
+}

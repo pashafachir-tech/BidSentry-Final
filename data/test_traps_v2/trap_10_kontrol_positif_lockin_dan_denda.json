@@ -1,0 +1,21 @@
+{
+  "id": "trap_10_kontrol_positif_lockin_dan_denda",
+  "title": "Kontrol Positif: Pelanggaran Nyata Lock-in Merek Mutlak dan Denda Tanpa Batas (Bukan Trap)",
+  "is_trap": false,
+  "request": {
+    "package_name": "Pengadaan Perangkat Cetak Kantor",
+    "tender_id": "TND-TRAP-10",
+    "pokja_name": "Pokja Pengadaan Khusus",
+    "company_name": "PT Vendor Mitra Tunggal",
+    "contract_value_idr": 1500000000,
+    "bid_deadline": "15 November 2026",
+    "dok_pemilihan": "SPESIFIKASI TEKNIS:\nPrinter harus menggunakan produk HP LaserJet Pro M404.\n\nJADWAL:\nMasa penawaran 8 hari kerja, masa sanggah 5 hari kerja.",
+    "contract_draft": "KETENTUAN DENDA:\nDenda keterlambatan 1/1000 per hari dari nilai kontrak tanpa batas maksimal sampai pekerjaan diselesaikan."
+  },
+  "expected_verdict": "NO-GO",
+  "expected_findings": {
+    "SPEC-BRAND-LOCKIN": "GAP",
+    "CON-PENALTY": "GAP"
+  },
+  "forbidden_findings": []
+}

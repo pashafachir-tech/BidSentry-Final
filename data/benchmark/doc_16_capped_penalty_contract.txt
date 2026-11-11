@@ -1,0 +1,11 @@
+=== ID: doc_16_capped_penalty_contract
+=== TITLE: Klausul Denda Standar dengan Batas Maksimal 5 Persen
+=== PACKAGE: Pengadaan Meubelair Kantor
+--- DOK_PEMILIHAN ---
+Ketentuan Kontrak:
+Denda keterlambatan sebesar 1/1000 per hari dengan batas maksimal denda 5% dari nilai kontrak.
+--- PUSTAKA ---
+
+--- CONTRACT_DRAFT ---
+Denda keterlambatan sebesar 1/1000 per hari dengan batas maksimal 5% dari nilai kontrak.
+--- ADENDUM ---
