@@ -64,7 +64,7 @@ Sebagai acuan perbandingan baseline terukur dalam protokol pengujian:
   - Teks yang dikirim dibatasi 48.000 karakter (sekitar 13.000 token masuk termasuk instruksi).
   - Token keluar diperkirakan sekitar 600.
   - Biaya AI: sekitar Rp 7 untuk dokumen pendek dan paling tinggi sekitar Rp 26 per audit, memakai harga Mistral Small 3.1 di watsonx dan kurs Rp 16.500.
-  - Margin: lihat `MONETIZATION_STRATEGY.md`; hosting dan dukungan belum dihitung.
+  - Margin: belum dihitung; hosting dan dukungan juga belum dihitung.
 
 ## Privasi, keselamatan, dan tata kelola
 

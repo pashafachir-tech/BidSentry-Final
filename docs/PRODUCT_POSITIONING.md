@@ -29,7 +29,7 @@ Langflow berfungsi sebagai lapisan orkestrasi dan analisis lintas dokumen, bukan
 
 ## Hipotesis monetisasi yang perlu diuji
 
-Harga acuan BidSentry ada di satu tempat, yaitu [MONETIZATION_STRATEGY.md](MONETIZATION_STRATEGY.md), dan sama dengan tabel di README. Semua harga masih **hipotesis yang diuji lewat wawancara**, belum harga pasar tervalidasi:
+Harga acuan BidSentry sama dengan tabel di README. Semua harga masih **hipotesis yang diuji lewat wawancara**, belum harga pasar tervalidasi:
 
 | Paket | Sasaran | Harga uji |
 |---|---|---:|

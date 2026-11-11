@@ -126,8 +126,6 @@ Riwayat perubahan dari yang terbaru. Versi aplikasi tercantum di `pyproject.toml
 - **Model & Decision System Card**: Menyusun `docs/MODEL_CARD.md` yang mendokumentasikan batasan deterministik vs LLM, sanitasi PII, limitasi sistem, dan mitigasi kegagalan.
 - **Dokumentasi Arsitektur Lengkap**: Menyusun `docs/ARCHITECTURE.md` disertai diagram Mermaid flowchart dan sequence diagram yang menggambarkan alur proses dan titik integrasi IBM.
 - **Probe IBM watsonx / Bob MCP**: Membuat skrip `scripts/verify_watsonx.py` dan dokumentasi transparansi `docs/INTEGRATION_STATUS.md` yang melaporkan status koneksi secara obyektif tanpa klaim palsu.
-- **Analisis Komparatif Kompetitif**: Menyusun `docs/COMPETITIVE_COMPARISON.md` yang membandingkan BidSentry vs review manual, software kepatuhan umum, dan LLM generik tanpa grounding.
-- **Instrumen Riset Lapangan**: Menyiapkan panduan wawancara semi-terstruktur `docs/INTERVIEW_GUIDE.md` dan templat pengujian pilot `docs/PILOT_RESULTS_TEMPLATE.md` (dengan data manusia bertanda jujur `"BELUM DIKUMPULKAN"`).
 - **Automated CI Workflow**: Menambahkan alur kerja GitHub Actions `.github/workflows/ci.yml` untuk menjaga zero-regression secara berkesinambungan.
 
 ### Kalibrasi Metodologi & Evaluasi Uji Buta (Blind Test)

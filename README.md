@@ -148,7 +148,6 @@ BidSentry mengadopsi model **Lean Micro-Utility & Micro-SaaS** yang membumi dan 
 | **Enterprise AI Global (Luminance, Kira)** | Kontrak korporasi global | Ratusan juta/thn, buta hukum Perpres LKPP | **Spesifik Regulasi Lokal**: Selaras Perpres 12/2021 dengan harga mikro QRIS |
 | **Generic LLM Chatbot (ChatGPT, Claude)** | Analisis teks umum | Risiko halusinasi hitung BoQ & bocor data rahasia | **Grounded & Terlindungi**: Verifikasi matematika deterministik + PII Scrubber lokal |
 
-*Rincian analisis unit economics, TAM/SAM/SOM, dan parit pertahanan kompetitif (*moat*) disajikan lengkap pada [**docs/MONETIZATION_STRATEGY.md**](docs/MONETIZATION_STRATEGY.md).*
 
 ## 📊 Hasil Benchmark & Pengujian Nyata
 
@@ -173,7 +172,7 @@ Angka dihasilkan otomatis oleh `python scripts/run_benchmarks.py` ke [docs/BENCH
 - **Dukungan Bahasa Dokumen**: Utamanya dioptimalkan untuk bahasa Indonesia pengadaan (istilah LPSE, KAK, HPS, DIPA); belum mencakup dokumen berbahasa Inggris penuh selain frasa kunci jadwal dan ekuivalensi dasar.
 - **Deteksi Diskriminasi Regional Terbatas**: Baru mencakup pola pembatasan domisili, keanggotaan asosiasi, dan kantor cabang spesifik wilayah tertentu.
 - **Lokasi pemrosesan AI**: ekstraksi AI bersifat opsional dan hanya berjalan setelah pengguna memberi persetujuan per audit. Teks yang sudah disensor PII-nya diproses di proyek IBM watsonx.ai region Tokyo (`jp-tok`), yaitu di luar Indonesia. Organisasi yang memakai BidSentry perlu memastikan hal ini sesuai kebijakan transfer data lintas negara (UU 27/2022 tentang Pelindungan Data Pribadi, Pasal 56). Tanpa persetujuan, seluruh analisis berjalan lokal tanpa mengirim data keluar.
-- **Ketahanan Prompt Injection**: Engine aturan lokal 100% kebal prompt injection karena bersifat deterministik tanpa LLM; namun jalur LLM eksternal opsional (watsonx/Langflow) hanya dilindungi oleh penyensoran pola PII dan validasi kutipan exact substring sebelum inferensi.
+- **Ketahanan Prompt Injection**: Engine aturan lokal tidak memakai LLM sehingga tidak dapat diarahkan oleh instruksi di dalam dokumen. Jalur LLM opsional (watsonx/Langflow) tidak sepenuhnya kebal: dokumen dianggap sebagai data, instruksi yang terdeteksi dihapus dari input, dan setiap kutipan AI harus cocok persis dengan teks sumber sebelum dipakai. Pertahanan ini belum diuji terhadap serangan adaptif.
 
 ---
 
@@ -250,13 +249,11 @@ python scripts/capture_screenshots.py
 
 ## 📚 Dokumentasi Teknis & Produk
 
-- 💰 [**Strategi Monetisasi & Micro-SaaS**](docs/MONETIZATION_STRATEGY.md) — Model Micro-Utility & Micro-SaaS, pricing eceran QRIS, proyeksi bottom-up TAM/SAM/SOM, dan lanskap kompetitor.
 - 🏗️ [**Peta Arsitektur**](docs/ARCHITECTURE.md) — Struktur arsitektur backend, konsolidasi modul finansial, dan data flow.
 - 🧠 [**Model & System Card**](docs/MODEL_CARD.md) — Kebijakan vonis deterministik, mitigasi bias etika, dan batasan operasional.
 - 📊 [**Laporan Benchmark Resmi**](docs/BENCHMARK_REPORT.md) — Angka terkini yang dihasilkan otomatis dan dijaga CI.
 - 🔬 [**Riwayat Benchmark per Iterasi**](docs/BENCHMARK_RESULTS.md) — Catatan historis per dokumen uji dan mitigasi false positive.
 - 📝 [**Catatan Perubahan**](docs/CHANGELOG.md) — Riwayat versi dari v2.0 hingga v4.1.
-- 🏛️ [**Analisis Komparatif Kompetitif**](docs/COMPETITIVE_COMPARISON.md) — Matriks perbandingan objektif vs Review Manual, Software Kontrak Global, dan Chatbot LLM Generik.
 
 ---
 
