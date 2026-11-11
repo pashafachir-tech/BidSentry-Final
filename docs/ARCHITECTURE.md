@@ -40,7 +40,7 @@ flowchart TD
     I --> K
     K -->|Payload Hasil Audit| C
 
-    G -.->|Optional Advisory (Consent Given)| L
+    G -.->|"Optional Advisory (Consent Given)"| L
     G -.->|Advisory Flow| N
     N -.->|Tool Calls| M
     C -.->|Tindak Lanjut Reviewer| O
